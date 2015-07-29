@@ -6,6 +6,7 @@
 
 - NeoBundle
 - Emmet
+- vim-atom-dark
 
 ### Install
 
