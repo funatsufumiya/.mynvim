@@ -13,7 +13,7 @@
 
 ```
 cd ~ && git clone https://github.com/atmarksharp/.myvim.git
-ln -s ~/.myvim/vimrc ~/.vimrc
+cd ~/.myvim && rake apply
 
 # open vim, and type :NeoBundleInstall
 ```
