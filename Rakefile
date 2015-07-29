@@ -8,8 +8,12 @@ task :apply do
   sh "mkdir -p ~/.vim/colors && cp ~/.myvim/color/vim-atom-dark/colors ~/.vim/colors"
 end
 
-task :push do |mes|
-  mes = "Updated" if mes == nil
+task :push do
+  mes = "Updated"
+  if ENV['m'] != nil
+    mes = ENV['m']
+  end
+
   sh "git add --all"
   sh "git commit -m '#{mes}' && echo -e '\\n'; git push -u origin master"
 end
