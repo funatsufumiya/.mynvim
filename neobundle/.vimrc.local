@@ -9,12 +9,12 @@ call neobundle#begin(expand('~/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 call neobundle#end()
 
-" ここからNeoBundleでプラグインを設定
+" ここからNeoBundleでプラグインを設定 =============
 
 call neobundle#begin(expand('~/.vim/bundle'))
-NeoBundle 'mattn/emmet-vim'
-NeoBundle 'Shougo/neocomplcache.git'
-NeoBundle 'Shougo/unite.vim.git'
+source $HOME/.myvim/neobundle/plugins/.vimrc.local
 call neobundle#end()
+
+" End of plugin =================================
 
 filetype plugin indent on

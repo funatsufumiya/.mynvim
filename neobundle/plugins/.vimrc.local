@@ -1,0 +1,6 @@
+" NeoBundle Plugins...
+
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'Shougo/neocomplcache.git'
+NeoBundle 'Shougo/unite.vim.git'
+NeoBundle 'scrooloose/nerdtree' " ファイルをtree表示
