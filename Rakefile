@@ -9,5 +9,6 @@ task :apply do
 end
 
 task :push do |mes|
-  sh "git add --all && git commit -m '#{mes}' && git push -u origin master"
+  sh "git add --all"
+  sh "git commit -m '#{mes}' && git push -u origin master"
 end
