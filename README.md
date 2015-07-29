@@ -1,4 +1,4 @@
-# .myvimrc
+# .myvim
 
 構造化した `.vimrc` .... ***"vimrc Anywhere"***
 
