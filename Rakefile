@@ -12,6 +12,8 @@ task :push do
   mes = "Updated"
   if ENV['m'] != nil
     mes = ENV['m']
+  else
+    puts "Usage: rake push m='commit message'"
   end
 
   sh "git add --all"
