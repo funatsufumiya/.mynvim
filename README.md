@@ -1,6 +1,6 @@
 # .myvimrc
 
-構造化した `.vimrc`
+構造化した `.vimrc` .... ***"vimrc Anywhere"***
 
 ### Packages
 
