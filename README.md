@@ -2,12 +2,12 @@
 
 構造化した `.vimrc`
 
-## Packages
+### Packages
 
 - NeoBundle
 - Emmet
 
-## Install
+### Install
 
 ```
 cd ~ && git clone https://github.com/atmarksharp/.myvim.git
