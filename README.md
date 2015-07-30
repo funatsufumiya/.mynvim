@@ -13,6 +13,7 @@
 #### Others
 
 - set *tabwidth* 2
+- set *softtabstop*
 - key-remap
 
 ### Install
