@@ -7,6 +7,7 @@
 - NeoBundle
 - Emmet
 - NERDTree
+- Powerline
 - vim-atom-dark (colorscheme)
 
 ### Install
