@@ -9,9 +9,11 @@
 - NERDTree
 - Powerline
 - vim-atom-dark (colorscheme)
-- set tabwidth 2
+
+#### Others
+
+- set ***tabwidth*** 2
 - key-remap
-- etc
 
 ### Install
 
