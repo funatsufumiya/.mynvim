@@ -5,6 +5,18 @@ set softtabstop=2
 set autoindent
 set smartindent
 
+" Show statusline
+set laststatus=2
+
+" バッファタブをステータスライン内に表示する
+let g:buftabs_in_statusline=1
+" 現在のバッファをハイライト
+let g:buftabs_active_highlight_group="Visual"
+
 syntax enable
 set t_Co=256
 colorscheme atom-dark-256
+
+" Powerline setting
+let g:Powerline_symbols = 'compatible'
+"let g:Powerline_symbols = 'funcy'

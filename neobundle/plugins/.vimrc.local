@@ -2,5 +2,12 @@
 
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Shougo/neocomplcache.git'
-NeoBundle 'Shougo/unite.vim.git'
+NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'Shougo/unite.vim.git' " 古いパッケージ管理
 NeoBundle 'scrooloose/nerdtree' " ファイルをtree表示
+NeoBundle 'flazz/vim-colorschemes' " カラースキーム
+
+" Powerline
+NeoBundle 'alpaca-tc/alpaca_powertabline'
+NeoBundle 'Lokaltog/powerline', { 'rtp' : 'powerline/bindings/vim'}
+NeoBundle 'Lokaltog/powerline-fontpatcher'
