@@ -12,7 +12,7 @@
 
 #### Others
 
-- set ***tabwidth*** 2
+- set *tabwidth* 2
 - key-remap
 
 ### Install
