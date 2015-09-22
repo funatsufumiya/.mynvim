@@ -20,7 +20,7 @@
 
 ```
 git clone https://github.com/atmarksharp/.myvim.git ~/.myvim
-cd ~/.myvim && rake apply
+~/.myvim/install.sh
 
 # open vim, and type :NeoBundleInstall
 ```
