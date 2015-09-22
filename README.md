@@ -18,7 +18,7 @@
 
 ### Install
 
-```
+```bash
 git clone https://github.com/atmarksharp/.myvim.git ~/.myvim
 ~/.myvim/install.sh
 
