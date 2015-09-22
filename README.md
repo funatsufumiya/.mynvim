@@ -22,5 +22,5 @@
 git clone https://github.com/atmarksharp/.myvim.git ~/.myvim
 ~/.myvim/install.sh
 
-# open vim, and type :NeoBundleInstall
+vim # and type :NeoBundleInstall
 ```
