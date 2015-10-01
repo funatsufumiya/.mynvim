@@ -19,8 +19,10 @@ my .vimrc anywhere
 ### Install
 
 ```bash
+rm -rI ~/.vim/ # if you already installed plugins
+
 git clone https://github.com/atmarksharp/.myvim.git ~/.myvim
 ~/.myvim/install.sh
 
-vim # and type :NeoBundleInstall
+bash ~/.myvim/install.sh
 ```
