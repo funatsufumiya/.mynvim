@@ -20,6 +20,10 @@ syntax enable
 set t_Co=256
 colorscheme atom-dark-256
 
-" Powerline setting
-let g:Powerline_symbols = 'compatible'
-"let g:Powerline_symbols = 'funcy'
+" lightline setting
+let g:lightline = {
+  \ 'colorscheme': 'wombat',
+  \ 'component': {
+  \   'readonly': '%{&readonly?"⭤":""}',
+  \ }
+  \ }
