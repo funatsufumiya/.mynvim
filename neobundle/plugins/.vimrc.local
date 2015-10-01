@@ -7,5 +7,5 @@ NeoBundle 'Shougo/unite.vim.git' " 古いパッケージ管理
 NeoBundle 'scrooloose/nerdtree' " ファイルをtree表示
 NeoBundle 'flazz/vim-colorschemes' " カラースキーム
 
-" vim-airline
+" lightline
 NeoBundle 'itchyny/lightline.vim'
