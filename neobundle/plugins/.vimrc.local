@@ -8,4 +8,4 @@ NeoBundle 'scrooloose/nerdtree' " ファイルをtree表示
 NeoBundle 'flazz/vim-colorschemes' " カラースキーム
 
 " vim-airline
-NeoBundle 'vim-airline'
+NeoBundle 'tchyny/lightline.vim'
