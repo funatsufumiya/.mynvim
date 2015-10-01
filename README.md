@@ -1,13 +1,13 @@
 # .myvim
 
-構造化した `.vimrc` .... ***"vimrc Anywhere"***
+my .vimrc anywhere
 
 ### Packages
 
 - NeoBundle
 - Emmet
 - NERDTree
-- Powerline
+- lightline
 - vim-atom-dark (colorscheme)
 
 #### Others
