@@ -8,6 +8,9 @@ set smartindent
 " Show statusline
 set laststatus=2
 
+" Backspace Newline
+set backspace=2
+
 " バッファタブをステータスライン内に表示する
 let g:buftabs_in_statusline=1
 " 現在のバッファをハイライト
