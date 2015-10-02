@@ -1,6 +1,6 @@
 " Basic
-source $HOME/.myvim/basic/.vimrc.local
+source $HOME/.myvim/vimrc.basic
 " NeoBundle
-source $HOME/.myvim/neobundle/.vimrc.local
+source $HOME/.myvim/vimrc.neobundle
 " KeyBinding
-source $HOME/.myvim/key-binding/.vimrc.local
+source $HOME/.myvim/vimrc.key-binding

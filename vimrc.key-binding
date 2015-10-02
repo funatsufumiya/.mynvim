@@ -19,5 +19,4 @@ let g:user_emmet_expandabbr_key='<Tab>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " comment out (using tyru/caw.cim.git)
-nmap <C-_> <Plug>(caw:i:toggle)
-vmap <C-_> <Plug>(caw:i:toggle)
+map <C-_> <Plug>(caw:i:toggle)
