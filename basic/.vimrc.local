@@ -22,12 +22,14 @@ let g:buftabs_active_highlight_group="Visual"
 
 syntax enable
 set t_Co=256
-colorscheme atom-dark-256
+set background=dark
+" colorscheme atom-dark-256
+colorscheme hybrid
 
 " lightline setting
 let g:lightline = {
   \ 'colorscheme': 'wombat',
   \ 'component': {
-  \   'readonly': '%{&readonly?"⭤":""}',
+  \   'readonly': '%{&readonly?"x":""}',
   \ }
   \ }

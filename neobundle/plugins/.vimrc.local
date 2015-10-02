@@ -3,9 +3,11 @@
 NeoBundle 'mattn/emmet-vim'
 NeoBundle 'Shougo/neocomplcache.git'
 NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'Shougo/unite.vim.git' " 古いパッケージ管理
+"NeoBundle 'Shougo/unite.vim.git'
+NeoBundle "ctrlpvim/ctrlp.vim"
 NeoBundle 'scrooloose/nerdtree' " ファイルをtree表示
-NeoBundle 'flazz/vim-colorschemes' " カラースキーム
+NeoBundle 'flazz/vim-colorschemes'
+"NeoBundle 'w0ng/vim-hybrid'
 
 " lightline
 NeoBundle 'itchyny/lightline.vim'
