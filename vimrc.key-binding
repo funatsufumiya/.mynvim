@@ -1,3 +1,6 @@
+" for US keyboard
+nnoremap ; :
+
 " window
 nnoremap s <Nop>
 " window move
