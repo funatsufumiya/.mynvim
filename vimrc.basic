@@ -9,6 +9,8 @@ set softtabstop=2
 set autoindent
 set smartindent
 
+set mouse=a "マウス操作を有効化 (xterm or gvim)
+
 " Show statusline
 set laststatus=2
 
@@ -20,6 +22,7 @@ let g:buftabs_in_statusline=1
 " 現在のバッファをハイライト
 let g:buftabs_active_highlight_group="Visual"
 
+" カラースキームの設定
 syntax enable
 set t_Co=256
 set background=dark
