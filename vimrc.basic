@@ -10,7 +10,7 @@ set autoindent
 set smartindent
 
 set mouse=a "マウス操作を有効化 (xterm or gvim)
-
+set clipboard=unnamed,autoselect
 " Show statusline
 set laststatus=2
 
@@ -36,3 +36,8 @@ let g:lightline = {
   \   'readonly': '%{&readonly?"x":""}',
   \ }
   \ }
+
+" 日本語ヘルプを優先表示。英語版を表示する場合は、検索時に@enを付加
+set helplang& helplang=ja,en
+" ヘルプをqで閉じる
+autocmd FileType help nnoremap <buffer> q <C-w>c
