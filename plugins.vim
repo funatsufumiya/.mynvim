@@ -13,3 +13,4 @@ NeoBundle 'tyru/caw.vim' " コメントアウト用
 NeoBundle 'itchyny/vim-pdf' " pdfのシンタックスハイライト改良版
 NeoBundle 'ConradIrwin/vim-bracketed-paste' " ペーストしても崩れない
 NeoBundle 'vim-jp/vimdoc-ja' " 日本語ドキュメント
+NeoBundle 'vim-scripts/VimRepress' " WordPressに投稿
