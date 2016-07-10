@@ -12,7 +12,7 @@ call neobundle#end()
 " ここからNeoBundleでプラグインを設定 =============
 
 call neobundle#begin(expand('~/.vim/bundle'))
-source $HOME/.myvim/vimrc.plugins
+source $HOME/.myvim/plugins.vim
 call neobundle#end()
 
 " End of plugin =================================
