@@ -41,3 +41,4 @@ let g:lightline = {
 set helplang& helplang=ja,en
 " ヘルプをqで閉じる
 autocmd FileType help nnoremap <buffer> q <C-w>c
+set guifont=Ricty\ Diminished\ Discord:h16

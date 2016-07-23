@@ -13,7 +13,16 @@ nnoremap sw <C-w>w
 nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
 " window close
-nnoremap sq :q
+nnoremap sq :q<CR>
+" tab
+nnoremap ts :tab split<CR>
+nnoremap tn :tabnext<CR>
+nnoremap tl :tablast<CR>
+nnoremap tp :tabprevious<CR>
+nnoremap tf :tabfirst<CR>
+" Toggle NERDTree
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
 " <C-c> to ESC
 inoremap <C-c> <ESC>
 
