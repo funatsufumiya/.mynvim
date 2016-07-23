@@ -20,6 +20,7 @@ nnoremap tn :tabnext<CR>
 nnoremap tl :tablast<CR>
 nnoremap tp :tabprevious<CR>
 nnoremap tf :tabfirst<CR>
+nnoremap tw :tabclose<CR>
 " Toggle NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
