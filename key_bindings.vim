@@ -2,18 +2,18 @@
 nnoremap ; :
 
 " window
-nnoremap s <Nop>
+" nnoremap s <Nop>
 " window move
-nnoremap sj <C-w>j
-nnoremap sk <C-w>k
-nnoremap sl <C-w>l
-nnoremap sh <C-w>h
-nnoremap sw <C-w>w
+" nnoremap sj <C-w>j
+" nnoremap sk <C-w>k
+" nnoremap sl <C-w>l
+" nnoremap sh <C-w>h
+" nnoremap sw <C-w>w
 " window split
-nnoremap ss :<C-u>sp<CR>
-nnoremap sv :<C-u>vs<CR>
+" nnoremap ss :<C-u>sp<CR>
+" nnoremap sv :<C-u>vs<CR>
 " window close
-nnoremap sq :q<CR>
+" nnoremap sq :q<CR>
 " tab
 nnoremap ts :tab split<CR>
 nnoremap tn :tabnext<CR>
@@ -32,4 +32,4 @@ let g:user_emmet_expandabbr_key='<Tab>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " comment out (using tyru/caw.cim.git)
-map <C-_> <Plug>(caw:i:toggle)
+" nnoremap <C-_> <Plug>(caw:i:toggle)

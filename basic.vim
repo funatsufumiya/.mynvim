@@ -1,3 +1,6 @@
+" 終了時にセッションを保存
+au VimLeave * mks! ~/.vim.session
+
 set nocompatible "vi互換モードを無効化
 set number "行番号を表示
 set backspace=indent,eol,start "バックスペースの挙動を通常にする
