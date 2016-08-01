@@ -3,6 +3,11 @@
 mkdir -p ~/.vim/bundle
 git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 
+# Backup vimrc
+cp ~/.vimrc ~/.vimrc.old
+cp ~/.gvimrc ~/.gvimrc.old
+
+# Replace vimrc to mine
 rm -f ~/.vimrc ~/.gvimrc
 ln -s ~/.myvim/vimrc ~/.vimrc
 ln -s ~/.myvim/vimrc ~/.gvimrc
