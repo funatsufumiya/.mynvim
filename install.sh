@@ -20,4 +20,4 @@ echo "Copying ~/.myvim/color/ to ~/.vim/colors/"
 mkdir -p ~/.vim/colors
 cp ~/.myvim/color/* ~/.vim/colors/
 
-echo "type :NeoBundleInstall, and type :q! to exit" | vim -
+echo "type :NeoBundleInstall and [Enter]. type :q! to exit" | vim -
