@@ -33,3 +33,9 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " comment out (using tyru/caw.cim.git)
 " nnoremap <C-_> <Plug>(caw:i:toggle)
+
+" Needed for tmux and vim to play nice
+map <Esc>[A <Up>
+map <Esc>[B <Up>
+map <Esc>[C <Up>
+map <Esc>[D <Up>
