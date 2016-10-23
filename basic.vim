@@ -45,3 +45,8 @@ set helplang& helplang=ja,en
 " ヘルプをqで閉じる
 autocmd FileType help nnoremap <buffer> q <C-w>c
 set guifont=Ricty\ Diminished\ Discord:h16
+
+augroup vimrcEx
+  au BufRead * if line("'\"") > 0 && line("'\"") <= line("$") |
+  \ exe "normal g`\"" | endif
+augroup END
