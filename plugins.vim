@@ -14,7 +14,7 @@ NeoBundle 'tomtom/tcomment_vim' " コメントアウト
 NeoBundle 'itchyny/vim-pdf' " pdfのシンタックスハイライト改良版
 NeoBundle 'ConradIrwin/vim-bracketed-paste' " ペーストしても崩れない
 NeoBundle 'vim-jp/vimdoc-ja' " 日本語ドキュメント
-NeoBundle 'vim-scripts/VimRepress' " WordPressに投稿
+"NeoBundle 'vim-scripts/VimRepress' " WordPressに投稿
 NeoBundle 'terryma/vim-multiple-cursors' " 複数カーソル
 NeoBundle 'keith/tmux.vim' " .tmux.confをハイライト
 NeoBundle 'zah/nimrod.vim' " nim言語をハイライト
