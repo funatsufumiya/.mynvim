@@ -19,9 +19,12 @@ NeoBundle 'vim-jp/vimdoc-ja' " 日本語ドキュメント
 "NeoBundle 'vim-scripts/VimRepress' " WordPressに投稿
 NeoBundle 'terryma/vim-multiple-cursors' " 複数カーソル
 NeoBundle 'keith/tmux.vim' " .tmux.confをハイライト
+NeoBundle 'zah/nimrod.vim' " nim言語をハイライト
+NeoBundle 'pangloss/vim-javascript' " ECMAScript6対応
 NeoBundle 'joonty/vdebug' " Vdebug
+NeoBundle 'udalov/kotlin-vim'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
 
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-smap <C-k>     <Plug>(neosnippet_expand_or_jump)
