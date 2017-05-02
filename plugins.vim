@@ -20,3 +20,5 @@ NeoBundle 'keith/tmux.vim' " .tmux.confをハイライト
 NeoBundle 'zah/nimrod.vim' " nim言語をハイライト
 NeoBundle 'pangloss/vim-javascript' " ECMAScript6対応
 NeoBundle 'udalov/kotlin-vim'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
