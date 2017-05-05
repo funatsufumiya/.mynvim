@@ -55,6 +55,11 @@ function! BrowseDoc()
 endfunction
 vmap <C-q> :call BrowseDoc()^M^M
 
+nnoremap <C-H> :noh<CR>
+
+noremap <F12> <Esc>:syntax sync fromstart<CR>
+inoremap <F12> <C-o>:syntax sync fromstart<CR>
+
 " neosnippet keymap
 imap <C-k> <Plug>(neosnippet_expand_or_jump)
 smap <C-k> <Plug>(neosnippet_expand_or_jump)
