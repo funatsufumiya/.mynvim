@@ -2,6 +2,8 @@
 
 NeoBundle 'mattn/emmet-vim' " emmet
 NeoBundle 'Shougo/neocomplcache.git'
+NeoBundle 'Shougo/neocomplete'
+NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
 "NeoBundle 'Shougo/unite.vim.git'
 NeoBundle 'ctrlpvim/ctrlp.vim' " ctrlp.vim
@@ -19,4 +21,10 @@ NeoBundle 'terryma/vim-multiple-cursors' " 複数カーソル
 NeoBundle 'keith/tmux.vim' " .tmux.confをハイライト
 NeoBundle 'zah/nimrod.vim' " nim言語をハイライト
 NeoBundle 'pangloss/vim-javascript' " ECMAScript6対応
-NeoBundle 'udalov/kotlin-vim' " Kotlin
+NeoBundle 'joonty/vdebug' " Vdebug
+NeoBundle 'udalov/kotlin-vim'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
+
+let g:neocomplete#enable_at_startup = 1
+let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
