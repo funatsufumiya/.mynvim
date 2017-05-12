@@ -21,7 +21,7 @@ NeoBundle 'terryma/vim-multiple-cursors' " 複数カーソル
 NeoBundle 'keith/tmux.vim' " .tmux.confをハイライト
 NeoBundle 'zah/nimrod.vim' " nim言語をハイライト
 NeoBundle 'pangloss/vim-javascript' " ECMAScript6対応
-NeoBundle 'joonty/vdebug' " Vdebug
+"NeoBundle 'joonty/vdebug' " Vdebug
 NeoBundle 'udalov/kotlin-vim'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
