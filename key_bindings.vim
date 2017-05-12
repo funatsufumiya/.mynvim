@@ -28,8 +28,10 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 inoremap <C-c> <ESC>
 
 " emmpet expand key
-let g:user_emmet_expandabbr_key='<Tab>'
-imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+" let g:user_emmet_expandabbr_key='<Tab>'
+let g:user_emmet_expandabbr_key='<C-y>'
+" imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+imap <expr> <C-y> emmet#expandAbbrIntelligent("\<C-y>")
 
 " comment out (using tyru/caw.cim.git)
 " nnoremap <C-_> <Plug>(caw:i:toggle)
