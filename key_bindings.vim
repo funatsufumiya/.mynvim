@@ -34,7 +34,10 @@ let g:user_emmet_expandabbr_key='<C-y>'
 imap <expr> <C-y> emmet#expandAbbrIntelligent("\<C-y>")
 
 " comment out (using tyru/caw.cim.git)
-" nnoremap <C-_> <Plug>(caw:i:toggle)
+nmap \\ <Plug>(caw:hatpos:toggle)
+vmap \\ <Plug>(caw:hatpos:toggle)
+nmap __ <Plug>(caw:zeropos:toggle)
+vmap __ <Plug>(caw:zeropos:toggle)
 
 " Needed for tmux and vim to play nice
 map <Esc>[A <Up>

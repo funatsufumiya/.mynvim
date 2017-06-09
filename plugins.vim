@@ -11,7 +11,7 @@ NeoBundle 'scrooloose/nerdtree' " ファイルをtree表示
 NeoBundle 'flazz/vim-colorschemes'
 "NeoBundle 'w0ng/vim-hybrid'
 NeoBundle 'itchyny/lightline.vim' " lightline
-"NeoBundle 'tyru/caw.vim' " コメントアウト用
+NeoBundle 'tyru/caw.vim' " コメントアウト用
 NeoBundle 'tomtom/tcomment_vim' " コメントアウト
 NeoBundle 'itchyny/vim-pdf' " pdfのシンタックスハイライト改良版
 NeoBundle 'ConradIrwin/vim-bracketed-paste' " ペーストしても崩れない
