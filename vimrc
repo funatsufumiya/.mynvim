@@ -6,3 +6,6 @@ source $HOME/.myvim/neobundle.vim
 source $HOME/.myvim/key_bindings.vim
 " Macro
 source $HOME/.myvim/macros.vim
+
+" ヤンクの設定
+set viminfo='20,<1000,s100
