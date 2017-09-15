@@ -25,6 +25,8 @@ NeoBundle 'pangloss/vim-javascript' " ECMAScript6対応
 NeoBundle 'udalov/kotlin-vim'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'miyakogi/seiya.vim' " :SeiyaEnable で背景を透明化する
+let g:seiya_auto_enable=1 " 初期状態で背景を透明化
 
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化

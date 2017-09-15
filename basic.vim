@@ -46,6 +46,7 @@ set helplang& helplang=ja,en
 autocmd FileType help nnoremap <buffer> q <C-w>c
 set guifont=Ricty\ Diminished\ Discord:h16
 
+" 最後に開いたポジションを保持
 augroup vimrcEx
   au BufRead * if line("'\"") > 0 && line("'\"") <= line("$") |
   \ exe "normal g`\"" | endif
