@@ -1,7 +1,7 @@
 " NeoBundle Plugins...
 
 NeoBundle 'mattn/emmet-vim' " emmet
-NeoBundle 'Shougo/neocomplcache.git'
+" NeoBundle 'Shougo/neocomplcache.git'
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
 NeoBundle 'Shougo/neosnippet-snippets'
@@ -32,7 +32,7 @@ let g:seiya_auto_enable=1 " 初期状態で背景を透明化
 " 補完の設定
 
 let g:neocomplete#enable_at_startup = 1
-let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
+" let g:neocomplcache_enable_at_startup = 1 " 起動時に有効化
 
 " Set minimum syntax keyword length.
 let g:neocomplete#sources#syntax#min_keyword_length = 3
