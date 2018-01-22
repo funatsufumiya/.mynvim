@@ -2,7 +2,7 @@
 
 echo "Install neobundle.vim"
 mkdir -p ~/.vim/bundle
-git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+git clone --depth=1 git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 
 # Backup vimrc
 echo "Backup vimrc and gvimrc"
