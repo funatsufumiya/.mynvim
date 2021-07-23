@@ -1,4 +1,4 @@
-# .myvim
+# .myvim2
 
 ### Install
 
