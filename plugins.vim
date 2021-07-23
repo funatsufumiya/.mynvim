@@ -1,31 +1,38 @@
-" NeoBundle Plugins...
+set nocompatible
+filetype off
 
-NeoBundle 'mattn/emmet-vim' " emmet
-" NeoBundle 'Shougo/neocomplcache.git'
-NeoBundle 'Shougo/neocomplete'
-NeoBundle 'Shougo/neosnippet'
-NeoBundle 'Shougo/neosnippet-snippets'
-"NeoBundle 'Shougo/unite.vim.git'
-NeoBundle 'ctrlpvim/ctrlp.vim' " ctrlp.vim
-NeoBundle 'scrooloose/nerdtree' " ファイルをtree表示
-NeoBundle 'flazz/vim-colorschemes'
-"NeoBundle 'w0ng/vim-hybrid'
-NeoBundle 'itchyny/lightline.vim' " lightline
-NeoBundle 'tyru/caw.vim' " コメントアウト用
-NeoBundle 'tomtom/tcomment_vim' " コメントアウト
-NeoBundle 'itchyny/vim-pdf' " pdfのシンタックスハイライト改良版
-NeoBundle 'ConradIrwin/vim-bracketed-paste' " ペーストしても崩れない
-NeoBundle 'vim-jp/vimdoc-ja' " 日本語ドキュメント
-"NeoBundle 'vim-scripts/VimRepress' " WordPressに投稿
-NeoBundle 'terryma/vim-multiple-cursors' " 複数カーソル
-NeoBundle 'keith/tmux.vim' " .tmux.confをハイライト
-NeoBundle 'zah/nimrod.vim' " nim言語をハイライト
-NeoBundle 'pangloss/vim-javascript' " ECMAScript6対応
-"NeoBundle 'joonty/vdebug' " Vdebug
-NeoBundle 'udalov/kotlin-vim'
-NeoBundle 'Shougo/neosnippet'
-NeoBundle 'Shougo/neosnippet-snippets'
-NeoBundle 'miyakogi/seiya.vim' " :SeiyaEnable で背景を透明化する
+call plug#begin('~/.vim/plugged')
+
+" List of plugins...
+
+Plug 'mattn/emmet-vim' " emmet
+" Plug 'Shougo/neocomplcache.git'
+Plug 'Shougo/neocomplete'
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
+"Plug 'Shougo/unite.vim.git'
+Plug 'ctrlpvim/ctrlp.vim' " ctrlp.vim
+Plug 'scrooloose/nerdtree' " ファイルをtree表示
+Plug 'flazz/vim-colorschemes'
+"Plug 'w0ng/vim-hybrid'
+Plug 'itchyny/lightline.vim' " lightline
+Plug 'tyru/caw.vim' " コメントアウト用
+Plug 'tomtom/tcomment_vim' " コメントアウト
+Plug 'itchyny/vim-pdf' " pdfのシンタックスハイライト改良版
+Plug 'ConradIrwin/vim-bracketed-paste' " ペーストしても崩れない
+Plug 'vim-jp/vimdoc-ja' " 日本語ドキュメント
+"Plug 'vim-scripts/VimRepress' " WordPressに投稿
+Plug 'terryma/vim-multiple-cursors' " 複数カーソル
+Plug 'keith/tmux.vim' " .tmux.confをハイライト
+Plug 'zah/nimrod.vim' " nim言語をハイライト
+Plug 'pangloss/vim-javascript' " ECMAScript6対応
+"Plug 'joonty/vdebug' " Vdebug
+Plug 'udalov/kotlin-vim'
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
+Plug 'miyakogi/seiya.vim' " :SeiyaEnable で背景を透明化する
+
+call plug#end()
 
 let g:seiya_auto_enable=1 " 初期状態で背景を透明化
 

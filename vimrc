@@ -1,7 +1,7 @@
 " Basic
 source $HOME/.myvim/basic.vim
-" NeoBundle
-source $HOME/.myvim/neobundle.vim
+" Plug
+source $HOME/.myvim/plugins.vim
 " KeyBinding
 source $HOME/.myvim/key_bindings.vim
 " Macro
