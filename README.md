@@ -1,13 +1,13 @@
-# .myvim2
+# My NVIM Settings (.mynvim)
 
 ### Install
 
 ```bash
-# rm -rI ~/.vim/ # if you already installed plugins
+# rm -rI ~/.config/nvim/ # if you already installed plugins
 
-git clone https://github.com/funatsufumiya/.myvim.git ~/.myvim
+git clone https://github.com/funatsufumiya/.mynvim.git ~/.mynvim
 
-bash ~/.myvim/install.sh
+bash ~/.mynvim/install.sh
 ```
 
 ## 補足
