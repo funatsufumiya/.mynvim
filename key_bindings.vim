@@ -71,3 +71,13 @@ smap <C-k> <Plug>(neosnippet_expand_or_jump)
 
 " 自分用 snippet ファイルの場所 (任意のパス)
 let g:neosnippet#snippets_directory = '~/.myvim/snippets/'
+
+" function
+function! s:EchoSyntax(status)
+  if a:status
+    redraw | echon synIDattr(synID(line('.'), col('.'), 0), 'name')
+  endif
+endfunction
+
+" command
+command! SyntaxEcho        :call <SID>EchoSyntax(1)

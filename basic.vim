@@ -13,7 +13,7 @@ set autoindent
 set smartindent
 
 set mouse=n "マウス操作を有効化 (xterm or gvim)
-set clipboard=unnamedplus,autoselect
+set clipboard=unnamedplus
 " Show statusline
 set laststatus=2
 
