@@ -21,5 +21,5 @@ mkdir -p ~/.config/nvim/colors
 cp ~/.mynvim/color/* ~/.config/nvim/colors/
 
 #echo "type :PlugInstall and [Enter]. type :qall! to exit" | vim -
-vim -c PlugInstall -c qa
+nvim -c PlugInstall -c qa
 echo "Done! have fun ;)"
