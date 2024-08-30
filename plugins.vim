@@ -37,8 +37,14 @@ Plug 'liquidz/vim-iced'
 
 Plug 'bakpakin/janet.vim'
 Plug 'luochen1990/rainbow'
+Plug 'bakpakin/fennel.vim'
+
+Plug 'Olical/conjure'
 
 Plug 'https://github.com/funatsufumiya/cakelisp.vim'
+
+Plug 'elkasztano/nushell-syntax-vim'
+Plug 'quabug/vim-gdscript'
 
 call plug#end()
 
