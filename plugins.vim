@@ -45,6 +45,7 @@ Plug 'https://github.com/funatsufumiya/cakelisp.vim'
 
 Plug 'elkasztano/nushell-syntax-vim'
 Plug 'quabug/vim-gdscript'
+Plug 'lambdalisue/vim-suda'
 
 call plug#end()
 

@@ -27,6 +27,9 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 " <C-c> to ESC
 inoremap <C-c> <ESC>
 
+" save with sudo
+cmap w!! w !sudo tee > /dev/null %
+
 " emmpet expand key
 " let g:user_emmet_expandabbr_key='<Tab>'
 let g:user_emmet_expandabbr_key='<C-y>'
