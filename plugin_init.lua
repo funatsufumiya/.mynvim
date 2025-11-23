@@ -51,4 +51,4 @@ require("text-transform").setup({
   --- Possible values: 'telescope', 'select'
   popup_type = 'telescope'
 })
-end
+end --- text-transform
