@@ -1,3 +1,19 @@
+function isModuleAvailable(name)
+  if package.loaded[name] then
+    return true
+  else
+    for _, searcher in ipairs(package.searchers or package.loaders) do
+      local loader = searcher(name)
+      if type(loader) == 'function' then
+        package.preload[name] = loader
+        return true
+      end
+    end
+    return false
+  end
+end
+
+if isModuleAvailable('text-transform') then    
 require("text-transform").setup({
   --- Prints information about internals of the plugin. Very verbose, only useful for debugging.
   debug = false,
@@ -35,3 +51,4 @@ require("text-transform").setup({
   --- Possible values: 'telescope', 'select'
   popup_type = 'telescope'
 })
+end
