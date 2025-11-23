@@ -40,6 +40,8 @@ Plug 'luochen1990/rainbow'
 
 Plug 'https://github.com/funatsufumiya/cakelisp.vim'
 
+Plug 'chenasraf/text-transform.nvim', { 'tag': 'stable' } " snake_caseとCamelCaseの変換など
+
 call plug#end()
 
 let g:seiya_auto_enable=1 " 初期状態で背景を透明化
@@ -77,3 +79,8 @@ let g:rainbow_conf = {
 \		'nerdtree': 0,
 \	}
 \}
+
+if has('nvim')
+    " luaでしかできない設定等
+    lua dofile(vim.fn.expand('~/.mynvim/plugin_init.lua'))
+endif

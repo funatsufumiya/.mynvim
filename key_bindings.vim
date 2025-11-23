@@ -60,6 +60,8 @@ function! BrowseDoc()
 endfunction
 vmap <C-q> :call BrowseDoc()^M^M
 
+map <leader>c <plug>(operator-camelize-toggle)
+
 nnoremap <C-H> :noh<CR>
 
 noremap <F12> <Esc>:syntax sync fromstart<CR>
