@@ -27,6 +27,9 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 " <C-c> to ESC
 inoremap <C-c> <ESC>
 
+" save with sudo
+cmap w!! w !sudo tee > /dev/null %
+
 " emmpet expand key
 " let g:user_emmet_expandabbr_key='<Tab>'
 let g:user_emmet_expandabbr_key='<C-y>'
@@ -52,7 +55,7 @@ function! BrowseDoc()
     elseif b:current_syntax == "perl"
         ! open http://perldoc.perl.org/search.html?q=<cword>
     elseif b:current_syntax == "cpp"
-          let cname = tolower(cword);
+          let cname = tolower(cword)
         ! open file:///opt/qt-4.3.4/doc/html/<cname>
     else
         return
@@ -72,7 +75,7 @@ imap <C-k> <Plug>(neosnippet_expand_or_jump)
 smap <C-k> <Plug>(neosnippet_expand_or_jump)
 
 " 自分用 snippet ファイルの場所 (任意のパス)
-let g:neosnippet#snippets_directory = '~/.myvim/snippets/'
+let g:neosnippet#snippets_directory = expand('~/.mynvim/snippets/')
 
 " function
 function! s:EchoSyntax(status)

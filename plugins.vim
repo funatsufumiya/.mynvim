@@ -37,10 +37,16 @@ Plug 'liquidz/vim-iced'
 
 Plug 'bakpakin/janet.vim'
 Plug 'luochen1990/rainbow'
+Plug 'bakpakin/fennel.vim'
+
+Plug 'Olical/conjure'
 
 Plug 'https://github.com/funatsufumiya/cakelisp.vim'
 
 Plug 'chenasraf/text-transform.nvim', { 'tag': 'stable' } " snake_caseとCamelCaseの変換など
+Plug 'elkasztano/nushell-syntax-vim'
+Plug 'quabug/vim-gdscript'
+Plug 'lambdalisue/vim-suda'
 
 call plug#end()
 
