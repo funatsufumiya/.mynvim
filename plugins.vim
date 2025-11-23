@@ -48,6 +48,11 @@ Plug 'elkasztano/nushell-syntax-vim'
 Plug 'quabug/vim-gdscript'
 Plug 'lambdalisue/vim-suda'
 
+Plug 'thecodinglab/nvim-vlang'
+Plug 'moevis/base64.nvim'
+"Plug 'ovk/endec.nvim'
+Plug 'MisanthropicBit/decipher.nvim'
+
 call plug#end()
 
 let g:seiya_auto_enable=1 " 初期状態で背景を透明化
@@ -85,6 +90,47 @@ let g:rainbow_conf = {
 \		'nerdtree': 0,
 \	}
 \}
+
+
+function! UrlEncode(mystring)
+let urlsafe = ""
+for char in split(join(lines, "\n"), '.\zs')
+    if matchend(char, '[-_.~a-zA-Z0-9]') >= 0
+        let urlsafe = urlsafe . char
+    else
+        let decimal = char2nr(char)
+        let urlsafe = urlsafe . "%" . printf("%02x", decimal)
+    endif
+endfor
+"echo urlsafe
+return urlsafe
+endfunction
+
+function! UrlEncodeAndReplace()
+    " Yank the visually selected text into the default register
+    " The 'silent!' prevents any messages from being shown
+    silent! execute "normal! gv\"zy"
+
+    " Get the yanked text from register 'z'
+    let l:original = getreg('z')
+
+    " Apply the UrlEncode function
+    let l:encoded = UrlEncode(l:original)
+
+    " Replace the selected text with the encoded string
+    " `gv` reselects the last visual selection
+    execute "normal! gv\"zc" . l:encoded . "\<Esc>"
+endfunction
+
+function! EncodeURIComponent() range
+  let saved_reg = @"
+  normal! gvy
+  let selected_text = @"
+  let encoded = system('node -e "process.stdout.write(encodeURIComponent(process.argv[1]))" -- ' . shellescape(selected_text))
+  let @" = encoded
+  normal! gv"_d"0P
+  let @" = saved_reg
+endfunction
 
 if has('nvim')
     " luaでしかできない設定等
